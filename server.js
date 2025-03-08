@@ -118,5 +118,5 @@ app.put("/api/doctors/:id", async (req, res) => {
 });
 
 // ✅ Start Server
-//const PORT
+const PORT
 app.listen(PORT, '0.0.0.0', () => console.log(`🚀 Server running on port ${PORT}`));
